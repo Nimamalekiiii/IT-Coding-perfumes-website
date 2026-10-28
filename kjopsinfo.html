@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Bestilling, frakt og retur | Oud Royale</title>
+  <meta name="description" content="Slik bestiller du, og dette gjelder for frakt, angrerett og retur.">
+  <meta name="theme-color" content="#1a110c">
+  <meta name="format-detection" content="telephone=no, date=no, address=no">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Oud Royale">
+  <meta property="og:title" content="Bestilling, frakt og retur | Oud Royale">
+  <meta property="og:description" content="Slik bestiller du, og dette gjelder for frakt, angrerett og retur.">
+  <meta property="og:image" content="images/del.jpg">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <script>document.documentElement.classList.add("js");</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700&family=Marcellus&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Oud Royale, til forsiden">OUD <span>ROYALE</span></a>
+
+    <nav id="nav" class="site-nav" aria-label="Hovedmeny">
+      <a href="parfymer.html">Parfymer</a>
+      <a href="duftvelger.html">Duftvelger</a>
+      <a href="om-oss.html">Om oss</a>
+      <a href="kontakt.html">Kontakt</a>
+    </nav>
+
+    <div class="header-tools">
+      <button type="button" class="cart-btn" data-open-cart aria-label="Åpne handlekurven"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 8h14l-1 12H6L5 8z"/><path d="M9 8V6.5a3 3 0 0 1 6 0V8"/></svg><span class="cart-count" aria-hidden="true">0</span></button>
+      <button type="button" class="menu-btn" aria-label="Meny" aria-expanded="false" aria-controls="nav"><span></span><span></span></button>
+    </div>
+  </header>
+
+  <main>
+
+    <div class="wrap page-head">
+      <h1 class="display">Bestilling, frakt og retur</h1>
+    </div>
+
+    <div class="wrap">
+      <div class="prose">
+        <h2 style="margin-top:0">Bestilling</h2>
+        <p>Du bestiller ved å legge parfymene i handlekurven og sende bestillingen til oss på e-post. Bestillingen er ikke bindende før vi har bekreftet den.</p>
+
+        <h2>Betaling</h2>
+        <p>Du betaler ikke på nettsiden. Når vi bekrefter bestillingen, får du oppgitt totalbeløpet og hvordan du betaler.</p>
+
+        <h2>Frakt</h2>
+        <p>Fraktpris og leveringstid avhenger av hvor pakken skal. Begge deler står i bekreftelsen du får, før du betaler.</p>
+
+        <h2>Angrerett og retur</h2>
+        <p>Når du handler på nett, har du 14 dagers angrerett etter angrerettloven. Ta kontakt med oss før du sender noe tilbake, så forklarer vi hvordan du går fram.</p>
+
+        <h2>Reklamasjon</h2>
+        <p>Er varen skadet eller feil når du får den, ta kontakt så raskt som mulig. Legg gjerne ved et bilde, så finner vi en løsning.</p>
+
+        <h2>Kontakt</h2>
+        <p>Spørsmål om en bestilling sender du til <a data-shop="epost" href="#"></a>.</p>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="footer-grid">
+        <div>
+          <a class="brand" href="index.html">OUD <span>ROYALE</span></a>
+          <p>Arabiske parfymer med luksuriøs karakter.</p>
+        </div>
+        <div>
+          <h3>Butikken</h3>
+          <ul>
+            <li><a href="parfymer.html">Alle parfymer</a></li>
+            <li><a href="duftvelger.html">Duftvelger</a></li>
+            <li><a href="handlekurv.html">Handlekurv</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Hjelp</h3>
+          <ul>
+            <li><a href="om-oss.html">Om oss</a></li>
+            <li><a href="kontakt.html">Kontakt</a></li>
+            <li><a href="kjopsinfo.html">Bestilling, frakt og retur</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 Oud Royale</span>
+        <span data-shop-row>Org.nr. <span data-shop="orgnr"></span></span>
+        <a data-shop="epost" href="#"></a>
+      </div>
+    </div>
+  </footer>
+
+  <noscript><p style="padding:24px;text-align:center">Slå på JavaScript i nettleseren for å se parfymene og bruke handlekurven.</p></noscript>
+
+  <script src="products.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
